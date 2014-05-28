@@ -21,7 +21,7 @@ class Command(BaseCommand):
     )
 
     def handle(self, *args, **options):
-        parsed = urlparse.urlparse(settings.BROKER_URL)
+        parsed = urlparse.urlparse(settings.REDIS_URL)
         cmd = "redis-cli "
         if parsed.hostname:
             cmd += "-h %s " % parsed.hostname
