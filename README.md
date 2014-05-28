@@ -10,12 +10,16 @@ Install via pip:
     $ pip install git+git://github.com/loisaidasam/django-redis-shell.git
 
 
-Add "djangoredisshell" to your INSTALLED_APPS setting like this::
+Add "djangoredisshell" to your `INSTALLED_APPS` setting (in settings.py) like this::
 
     INSTALLED_APPS = (
         ...
         'djangoredisshell',
     )
+
+Add a variable in settings.py called `REDIS_URL`
+
+    REDIS_URL = 'redis://[username]:[password]@[host]:[port]'
 
 
 ## Usage:
