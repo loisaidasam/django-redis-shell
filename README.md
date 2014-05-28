@@ -5,12 +5,12 @@ Command line support for ./manage.py redisshell
 
 ## Installation:
 
-1. Install via pip:
+Install via pip:
 
     $ pip install git+git://github.com/loisaidasam/django-redis-shell.git
 
 
-2. Add "djangoredisshell" to your INSTALLED_APPS setting like this::
+Add "djangoredisshell" to your INSTALLED_APPS setting like this::
 
     INSTALLED_APPS = (
         ...
