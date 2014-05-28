@@ -31,3 +31,10 @@ Read from shell:
 Delete from shell:
 
     ./manage.py redisshell keys '*' | xargs ./manage.py redisshell del
+
+
+## Notes:
+
+The meat of this project is in this file:
+
+[https://github.com/loisaidasam/django-redis-shell/blob/master/djangoredisshell/management/commands/redisshell.py](https://github.com/loisaidasam/django-redis-shell/blob/master/djangoredisshell/management/commands/redisshell.py)
