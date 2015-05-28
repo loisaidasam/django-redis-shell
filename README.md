@@ -1,7 +1,7 @@
 django-redis-shell
 ==================
 
-Command line support for ./manage.py redisshell
+Command line support for `./manage.py redisshell` (or `./manage.py rshell` for short)
 
 ## Installation:
 
