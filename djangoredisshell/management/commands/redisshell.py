@@ -13,11 +13,10 @@ class Command(BaseCommand):
 
     option_list = BaseCommand.option_list + (
         make_option('-r', '--raw',
-            action='store_true',
-            dest='raw',
-            default=False,
-            help='Raw output'
-        ),
+                    action='store_true',
+                    dest='raw',
+                    default=False,
+                    help='Raw output'),
     )
 
     def handle(self, *args, **options):
